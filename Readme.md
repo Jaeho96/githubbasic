@@ -2,6 +2,14 @@
 
 ### 스테이징 -> 커밋 -> 푸쉬
 
+1. git init
+2. git remote add origin "원격저장소주소"
+3. git remote -v 으로 잘 연결되었는지 확인
+4. git push -u origin master 로 지역 저장소의 브랜치와 원격 저장소의 마스터 연결
+5. git add .로 모든 파일 스테이징
+6. git commit -m "메세지 내용" 으로 메세지와 커밋
+7. git push로 원격 저장소로 보내기
+
 ### git init : 깃 초기화
 
 - **git status** : 깃 상태 확인
